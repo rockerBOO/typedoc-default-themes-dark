@@ -26,3 +26,33 @@
     --color-toolbar: #fff;
     --color-toolbar-text: #333;
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-background: #1e1e1e;
+        --color-text: #e6e6e6;
+        --color-text-aside: #808080;
+        --color-link: #4da6ff;
+
+        --color-menu-divider: #e6e6e6;
+        --color-menu-divider-focus: #fff;
+        --color-menu-label: #808080;
+
+        --color-panel: #090909;
+        --color-panel-divider: #4b4b4b;
+
+        --color-comment-tag: #1e1e1e;
+        --color-comment-tag-text: #e6e6e6;
+
+        --color-code-background: rgba(0, 0, 0, 0.04);
+
+        --color-ts: #be60ff;
+        --color-ts-interface: #c9ff39;
+        --color-ts-enum: #ffbf00;
+        --color-ts-class: #4da6ff;
+        --color-ts-private: #808080;
+
+        --color-toolbar: #1e1e1e;
+        --color-toolbar-text: #e6e6e6;
+    }
+}
