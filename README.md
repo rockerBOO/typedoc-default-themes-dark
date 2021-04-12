@@ -7,7 +7,7 @@ Uses default themes from https://github.com/TypeStrong/typedoc-default-themes wi
 ## Install
 
 ```sh
-npm add --dev typedocs-default-themes-dark
+npm add --dev typedoc-default-themes-dark
 ```
 
 ![screen2](https://gitlab.com/rockerBOO/typedoc-theme-dark/-/raw/master/resources/screen2.png)
@@ -17,14 +17,14 @@ npm add --dev typedocs-default-themes-dark
 ## Usage
 
 ```sh
-typedoc ./file.ts --theme ./node_modules/typedocs-default-themes-dark/dist/default/
+typedoc ./file.ts --theme ./node_modules/typedoc-default-themes-dark/dist/default/
 ```
 
 or add the theme to your tsconfig.json
 ```json
 {
   "typedocOptions": {
-    "theme": "node_modules/typedocs-default-themes-dark/dist/default/"
+    "theme": "node_modules/typedoc-default-themes-dark/dist/default/"
   }
 }
 ```
