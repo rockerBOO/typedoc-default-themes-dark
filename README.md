@@ -17,14 +17,14 @@ npm add --dev typedoc-default-themes-dark
 ## Usage
 
 ```sh
-typedoc ./file.ts --theme ./node_modules/typedoc-default-themes-dark/dist/default/
+typedoc ./file.ts --theme ./node_modules/typedoc-default-themes-dark/bin/default/
 ```
 
 or add the theme to your tsconfig.json
 ```json
 {
   "typedocOptions": {
-    "theme": "node_modules/typedoc-default-themes-dark/dist/default/"
+    "theme": "node_modules/typedoc-default-themes-dark/bin/default/"
   }
 }
 ```
