@@ -4,6 +4,8 @@ Uses default themes from https://github.com/TypeStrong/typedoc-default-themes wi
 
 `@media (prefers-color-scheme: dark)`
 
+See: [src/default/assets/css/_theme.scss](https://github.com/rockerBOO/typedoc-default-themes-dark/blob/dark-theme/src/default/assets/css/_theme.scss)
+
 ## Install
 
 ```sh
