@@ -6,6 +6,8 @@ Uses default themes from https://github.com/TypeStrong/typedoc-default-themes wi
 
 See: [src/default/assets/css/_theme.scss](https://github.com/rockerBOO/typedoc-default-themes-dark/blob/dark-theme/src/default/assets/css/_theme.scss)
 
+**Note:** Made for Typedoc < 0.22, as the templating changes in 0.22 to JSX. It seems to support some level of light/dark themes. 
+
 ## Install
 
 ```sh
